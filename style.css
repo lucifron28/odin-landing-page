@@ -9,8 +9,12 @@ body {
     background-color: #f4f4f4;
 }
 
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
 nav {
-    background-color: blueviolet;
     padding: 10px;
     display: flex;
     color: white;
