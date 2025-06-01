@@ -158,6 +158,7 @@ main {
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
+    color: #e5e7eb;
 }
 
 .call-to-action-button {
