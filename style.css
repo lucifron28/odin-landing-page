@@ -5,6 +5,10 @@
     font-family: "Roboto";
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -67,6 +71,7 @@ nav ul li a {
     font-weight: bold;
     border: 0;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .hero-right {
@@ -79,4 +84,87 @@ nav ul li a {
     height: auto;
     width: 100%;
     padding-right: 100px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.about-heading {
+    text-align: center;
+    padding: 50px ;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.cards > div {
+    max-width: 320px;
+    padding: 20px;
+    text-align: center;
+    word-break: break-word;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.cards img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.quote-section {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-section p {
+    width: 60%;
+}
+
+.quote-section h5 {
+    margin-left: 40%;
+}
+
+#sign-up-section {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-card {
+    display: flex;
+    background-color: #3882f6;
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-to-action-button {
+    background: none;
+    border: 2px white solid;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-weight: bold;
 }
