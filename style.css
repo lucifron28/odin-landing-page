@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Roboto";
 }
 
 nav {
@@ -10,12 +11,13 @@ nav {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 15px 20px;
+    height: 5vh;
 }
 
 nav ul {
     display: flex;
-    gap: 15px;
     align-items: center;
+    gap: 30px;
 }
 
 nav ul li {
@@ -25,4 +27,56 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 95vh;
+    width: 100vw;
+    padding-left: 100px;
+}
+
+.hero-left {
+    color: #f9faf8;
+    width: 40%;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#sign-up-button { 
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 0;
+    margin-left: 20px;
+}
+
+.hero-right {
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+.hero-right img {
+    height: auto;
+    width: 100%;
+    padding-right: 100px;
 }
