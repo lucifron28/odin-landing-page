@@ -11,7 +11,7 @@ html {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 15px 20px;
@@ -168,4 +168,14 @@ main {
     border-radius: 5px;
     color: #e5e7eb;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
